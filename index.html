@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana-speak</title>
+    <title>Language translator</title>
+    <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        .output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem; 
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>This app converts conventional english to other quirky languages.</h1>
+    <textarea id="txt-input"></textarea>
+    <button id="btn-transalte">Translate</button>
+    <div class="output"></div>
 </body>
 </html>
